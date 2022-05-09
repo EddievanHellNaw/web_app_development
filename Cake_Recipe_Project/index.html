@@ -1,29 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Let me Solo Her Recipe</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-color: #8ba1bb;
+                font-family: Arial;
+            }
+
+            div.category{
+                margin-bottom: -75px;
+            }
+
+            p.category {
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                display: inline-block;
+                margin-top: 30px;
+                margin-bottom: 0px;
+                padding: 8px 20px;
+            }
+            
+            div.content {
+                background-color: white;
+                margin: 60px 10% 80px 10%;
+                padding: 30px;
+            }
+
+            .center {
+                text-align: center;
+                width: 100%;
+            }
+
+            h1 {
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 12px;
+            }
+
+            p.description {
+                width: 400px;
+                display: inline-block;
+                font-size: 14px;
+            }
+
+            div.description {
+            }
+
+            div.separator{
+                background-color: black;
+                margin-left: auto;
+                margin-right: auto;
+                height: 1px;
+                width: 100px;
+            }
+
+            div.table{
+                position: relative;
+            }
+
+            #table_img{
+                position: absolute; 
+                bottom: 0;
+                width:100%; 
+                color: white; 
+                background-color: #6C8290C0;
+                height: 60px;
+            }
+
+        </style>
     </head>
     <body>
-        <h1 align="center">How to make yourself a legend &#128526;</h1>
-        <p align="center">
-            Have you ever wanted to be a legend but where
-            too awkward to ask how? Don't worry we got you covered!
-        </p>
-        <img  height = "400" src="solo_her.jpg">
-        <ul>
-            <h2>Ingredients</h2>
-            <li>Naked fuck</li>
-            <li>Jar head</li>
-            <li>Rivers of Blood</li>
-            <li>Katana with cold</li>
-        </ul>
+        <div class="center category">
+            <p class="category">Legend</p>
+        </div>
 
-        <ol>
-            <h2>Instructions</h2>
-            <li>Get your naked fuck</li>
-            <li>Level up arcane and dex an get your equipment</li>
-            <li>git gud</li>
-            <li>Profit!</li>
-        </ol>
+        <div class="content">
+            <h1>How to make yourself a legend &#128526;</h1>
+
+            <div class="separator"></div>
+
+            <div class="center description">
+                <p class="center description">
+                    Have you ever wanted to be a legend but where
+                    too awkward to ask how? Don't worry we got you covered!
+                </p>
+            </div>
+            <div class="table">
+                <img class="center" src="solo_her.jpg">
+
+                <table id="table_img">
+                    <tr>
+                        <th>Difficulty</th>
+                        <th>Preparation</th>
+                        <th>Cocking</th>
+                        <th>Total Time</th>
+                    </tr>
+                    <tr>
+                        <td>Yes, please</td>
+                        <td>3 hours</td>
+                        <td>Girthy</td>
+                        <td>3 hours</td>
+                    </tr>
+                </table>
+            </div>
+            <ul>
+                <h2>Ingredients</h2>
+                <li>Naked fuck</li>
+                <li>Jar head</li>
+                <li>Rivers of Blood</li>
+                <li>Katana with cold</li>
+            </ul>
+
+            <ol>
+                <h2>Instructions</h2>
+                <li>Get your naked fuck</li>
+                <li>Level up arcane and dex an get your equipment</li>
+                <li>git gud</li>
+                <li>Profit!</li>
+            </ol>
+        </div>
+
+        <!-----TABLES 
+            -header: th
+            -row: tr
+            -cell: td
+        -->
+
+        <!-- <table border="1">
+            <tr>
+                <th>Article</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Naked Fuck</td>
+                <td>Invaluable</td>
+            </tr>
+            <tr>
+                <td>Jar Head</td>
+                <td>One jar Bro :'v</td>
+            </tr>
+            <tr>
+                <td>Rivers of Blood</td>
+                <td>The blood of a samurai</td>
+            </tr>
+            <tr>
+                <td>Katana with frost</td>
+                <td>I dunno, steal it</td>
+            </tr>
+        </table> -->
     </body>
 </html>
